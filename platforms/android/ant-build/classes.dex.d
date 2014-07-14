@@ -1,0 +1,23 @@
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes.dex : \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/core/ParsePlugin.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/core/ParsePlugin$3.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/core/ParsePlugin$6.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/core/ParsePlugin$1.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/core/ParsePlugin$2.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/core/ParsePlugin$4.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/core/ParsePlugin$5.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$2.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/R.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/R$attr.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/Manifest$permission.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/R$drawable.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/BuildConfig.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/Manifest.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/RedAlertIsrael.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/R$xml.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/classes/com/redalertisrael/etzly/R$string.class \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/dexedLibs/classes-9be273afa419a2cbae9de58691d4f496.jar \
+/home/justin/workspace/etzly2/redalertisrael/platforms/android/ant-build/dexedLibs/Parse-1.3.8-bc5738ed5b3cc826ee1bea5149434175.jar \
