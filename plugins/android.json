@@ -13,11 +13,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "xml": "<feature name=\"ParsePlugin\"><param name=\"android-package\" value=\"org.apache.cordova.core.ParsePlugin\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"ParsePlugin\"><param name=\"android-package\" value=\"org.apache.cordova.core.ParsePlugin\" /></feature>",
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -88,10 +88,10 @@
         "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.redalertisrael.etzly"
         },
-        "org.apache.cordova.device": {
+        "org.apache.cordova.core.parseplugin": {
             "PACKAGE_NAME": "com.redalertisrael.etzly"
         },
-        "org.apache.cordova.core.parseplugin": {
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.redalertisrael.etzly"
         }
     },

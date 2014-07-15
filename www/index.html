@@ -44,29 +44,26 @@
         function onDeviceReady() {
           var appId = "oPLs05UMyiybsbf6NDwQS9kH8ZM7kzKQhknYJVci";
           var clientKey = "JTkiJfIj8DjcsnA1U5Z3Etk1BQH1ZuvzvbibngrG";
+          console.log('hello world');
           parsePlugin.initialize(appId, clientKey, function() {
 
               parsePlugin.subscribe('SampleChannel', function() {
+                console.log(arguments);
+                parsePlugin.getInstallationId(function(id) {
 
-                  parsePlugin.getInstallationId(function(id) {
-
-                      /**
-                       * Now you can construct an object and save it to your own services, or Parse, and corrilate users to parse installations
-                       *
-                       var install_data = {
-                          installation_id: id,
-                          channels: ['SampleChannel']
-                       }
-                       *
-                       */
-
-                  }, function(e) {
-                      alert('error');
-                  });
+                }, function(e) {
+                    alert('error');
+                });
 
               }, function(e) {
                   alert('error');
               });
+
+          }, function(e) {
+              alert('error');
+          });
+          parsePlugin.getNotification(function(url) {
+              console.log(url);
 
           }, function(e) {
               alert('error');

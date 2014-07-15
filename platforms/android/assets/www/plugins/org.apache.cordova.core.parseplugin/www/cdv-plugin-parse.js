@@ -57,7 +57,17 @@ cordova.define("org.apache.cordova.core.parseplugin.ParsePlugin", function(requi
             'unsubscribe',
             [ channel ]
         );
+    },
+    getNotification: function(channel, successCallback, errorCallback) {
+        cordova.exec(
+            successCallback,
+            errorCallback,
+            'ParsePlugin',
+            'getNotification',
+            [ channel ]
+        );
     }
+
 };
 module.exports = parsePlugin;
 

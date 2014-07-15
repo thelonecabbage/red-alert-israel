@@ -18,6 +18,9 @@ public class ParsePlugin extends CordovaPlugin {
     public static final String ACTION_GET_SUBSCRIPTIONS = "getSubscriptions";
     public static final String ACTION_SUBSCRIBE = "subscribe";
     public static final String ACTION_UNSUBSCRIBE = "unsubscribe";
+    public static final String ACTION_NOTIFICATION = "getNotification";
+    public static String key;
+
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
@@ -44,6 +47,10 @@ public class ParsePlugin extends CordovaPlugin {
         }
         if (action.equals(ACTION_UNSUBSCRIBE)) {
             this.unsubscribe(args.getString(0), callbackContext);
+            return true;
+        }
+        if (action.equals(ACTION_NOTIFICATION)) {
+            this.getNotification(callbackContext);
             return true;
         }
         return false;
@@ -107,6 +114,14 @@ public class ParsePlugin extends CordovaPlugin {
             public void run() {
                 PushService.unsubscribe(cordova.getActivity(), channel);
                 callbackContext.success();
+            }
+        });
+    }
+    private void getNotification(final CallbackContext callbackContext) {
+        cordova.getThreadPool().execute(new Runnable() {
+            public void run() {
+                callbackContext.success(key);
+                key = null;
             }
         });
     }
